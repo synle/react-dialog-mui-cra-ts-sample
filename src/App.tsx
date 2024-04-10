@@ -1,6 +1,6 @@
 import { ActionDialogsContext } from "react-dialog-mui";
 import { AlertExample } from "./components/AlertExample";
-import { ChoiceExample } from "./components/ChoiceExample";
+import { ChoiceExample, ChoiceExampleWithMultiselect } from "./components/ChoiceExample";
 import { ConfirmExample } from "./components/ConfirmExample";
 import {
   ModalExample,
@@ -39,12 +39,19 @@ export default function App() {
         </div>
 
         <div>
-          <h3>Choice Example</h3>
+          <h3>Single Select Choice Example</h3>
         </div>
         <div>
-          <div>Simple Choice Example</div>
-          <div>This is a simple example with choice.</div>
+          <div>Single Choice Example</div>
           <ChoiceExample />
+        </div>
+
+        <div>
+          <h3>Multiple Select Choice Example</h3>
+        </div>
+        <div>
+          <div>Multiple Choice Example</div>
+          <ChoiceExampleWithMultiselect />
         </div>
 
         <div>

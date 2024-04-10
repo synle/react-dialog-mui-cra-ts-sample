@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useActionDialogs } from 'react-dialog-mui';
 
 export function ConfirmExample() {
@@ -7,11 +7,11 @@ export function ConfirmExample() {
 
   const onSubmit = async () => {
     try {
-      await confirm(
-        <>Do you want to delete this query?</>,
-        `Delete`, // Optional: Yes label
-        <>Confirmation?</>, // Optional: the dialog title
-      );
+      await confirm({
+        title: <>Confirmation?</>,
+        message: <>Do you want to delete this query?</>,
+        yesLabel: `Delete`,
+      });
 
       // when user selects yes
       setDeleted(true);

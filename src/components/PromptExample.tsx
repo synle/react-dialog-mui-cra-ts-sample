@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useActionDialogs } from 'react-dialog-mui';
 
 export function PromptExample() {
@@ -23,7 +23,7 @@ export function PromptExample() {
     <>
       <button onClick={onSubmit}>Rename Query?</button>
       <div>
-        <h5>New query name:</h5> {name}
+        <strong>New query name:</strong> {name}
       </div>
     </>
   );
