@@ -24,9 +24,7 @@ export default function App() {
       >
         <h1>react-dialog-mui</h1>
         <div>
-          <a href="https://github.com/synle/react-mui-action-dialog">
-            Code repo
-          </a>
+          <a href="https://github.com/synle/react-mui-action-dialog">Code repo</a>
         </div>
 
         <div>
@@ -83,8 +81,7 @@ export default function App() {
         <div>
           <div>Simple Modal Example with ChildComponent</div>
           <div>
-            This is a simple example that includes a child component defined
-            somewhere else.
+            This is a simple example that includes a child component defined somewhere else.
           </div>
           <ModalExampleWithChildComponent />
         </div>
@@ -92,9 +89,8 @@ export default function App() {
         <div>
           <div>Simple Modal Example with manual dismiss</div>
           <div>
-            The example shows how you can use `const modalRef =
-            useActionDialogRef()` and `modalRef.current.dismiss()` to close this
-            modal
+            The example shows how you can use `const modalRef = useActionDialogRef()` and
+            `modalRef.current.dismiss()` to close this modal
           </div>
           <ModalExampleWithManualDismiss />
         </div>
@@ -102,8 +98,8 @@ export default function App() {
         <div>
           <div>Simple Modal Example with Form Submit</div>
           <div>
-            The example shows how you can use `modalRef` to programmitcally
-            close out the dialog after the form submission
+            The example shows how you can use `modalRef` to programmitcally close out the dialog
+            after the form submission
           </div>
           <ModalExampleWithFormSubmit />
         </div>

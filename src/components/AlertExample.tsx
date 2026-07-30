@@ -1,5 +1,5 @@
-import React from 'react';
-import { useActionDialogs, useActionDialogRef } from 'react-dialog-mui';
+import React from "react";
+import { useActionDialogs, useActionDialogRef } from "react-dialog-mui";
 
 export function AlertExample() {
   const { alert } = useActionDialogs();
