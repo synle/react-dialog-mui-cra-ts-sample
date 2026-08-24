@@ -1,8 +1,8 @@
-# react-mui-action-dialog-cra-ts-sample
+# react-dialog-mui-cra-ts-sample
 
-A sample Create React App (CRA) repo showing how to get started with `react-mui-action-dialog`. This has typescript integrated.
+A sample Create React App (CRA) repo showing how to get started with `react-dialog-mui`. This has typescript integrated.
 
-Refer to this repo for the actual library: https://github.com/synle/react-mui-action-dialog
+Refer to this repo for the actual library: https://github.com/synle/react-dialog-mui
 
 ### How to use?
 
@@ -16,7 +16,7 @@ npm install --save react-dialog-mui
 
 ### How to run locally?
 
-```tsx
+```bash
 npm install
 npm start
 ```
